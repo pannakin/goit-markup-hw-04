@@ -90,8 +90,8 @@ img {
 }
 
 .header-group {
-  display: flex;
-  align-items: baseline;
+  /* display: flex;
+  align-items: baseline; */
 }
 
 .header-contacts {
@@ -112,6 +112,12 @@ img {
 .header-contacts:focus {
   color: #2196f3;
   fill: #2196f3;
+}
+
+.h-icon {
+  margin-right: 10px;
+  /* display: flex;
+  align-items: baseline; */
 }
 
 .hero-section {
@@ -439,6 +445,7 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -487,7 +494,6 @@ img {
 
 .footer-socials {
   margin-left: 70px;
-  margin-top: 12px;
 }
 
 .join {
